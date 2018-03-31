@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = app => {
-  app.router.get('/', 'home.render');
+  app.redirect('/', '/public/index.html');
+  app.router.get('/home', 'home.render');
 };
