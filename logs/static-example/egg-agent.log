@@ -1,0 +1,2 @@
+2018-03-31 15:41:34,915 INFO 26844 [egg:logger] init all loggers with options: {"dir":"H:\\learn\\examples\\static\\logs\\static-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"static-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2018-03-31 15:41:34,999 INFO 26844 [egg-watcher:agent] watcher start success
