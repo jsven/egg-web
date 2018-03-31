@@ -79,8 +79,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "H:\\learn\\examples\\static\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "H:\\learn\\examples\\static\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "H:\\learn\\egg-web\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "H:\\learn\\egg-web\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -111,14 +111,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "H:\\learn\\examples\\static\\app\\public",
+      "dir": "H:\\learn\\egg-web\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "H:\\learn\\examples\\static\\app\\view",
+      "root": "H:\\learn\\egg-web\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -147,9 +147,9 @@
       },
       "private": true
     },
-    "baseDir": "H:\\learn\\examples\\static",
+    "baseDir": "H:\\learn\\egg-web",
     "HOME": "C:\\Users\\liuy35",
-    "rundir": "H:\\learn\\examples\\static\\run",
+    "rundir": "H:\\learn\\egg-web\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -179,7 +179,7 @@
       }
     },
     "logger": {
-      "dir": "H:\\learn\\examples\\static\\logs\\static-example",
+      "dir": "H:\\learn\\egg-web\\logs\\static-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -253,8 +253,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-session",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-session",
       "version": "2.2.0"
     },
     "security": {
@@ -266,8 +266,8 @@
         "session"
       ],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-security",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-security",
       "version": "1.13.0"
     },
     "jsonp": {
@@ -279,8 +279,8 @@
         "security"
       ],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-jsonp",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-jsonp",
       "version": "1.2.2"
     },
     "onerror": {
@@ -292,8 +292,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-onerror",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-onerror",
       "version": "1.6.0"
     },
     "i18n": {
@@ -303,8 +303,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-i18n",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-i18n",
       "version": "1.2.0"
     },
     "watcher": {
@@ -314,8 +314,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-watcher",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-watcher",
       "version": "2.2.0"
     },
     "multipart": {
@@ -325,8 +325,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-multipart",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-multipart",
       "version": "1.5.1"
     },
     "development": {
@@ -340,8 +340,8 @@
       "env": [
         "local"
       ],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-development",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-development",
       "version": "1.3.2"
     },
     "schedule": {
@@ -351,8 +351,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-schedule",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-schedule",
       "version": "2.6.0"
     },
     "logrotator": {
@@ -364,8 +364,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-logrotator",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-logrotator",
       "version": "2.3.1"
     },
     "static": {
@@ -375,8 +375,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-static",
+      "from": "H:\\learn\\egg-web\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-static",
       "version": "1.5.0"
     },
     "view": {
@@ -386,8 +386,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "H:\\learn\\examples\\static\\node_modules\\egg\\config\\plugin.js",
-      "path": "H:\\learn\\examples\\static\\node_modules\\egg-view",
+      "from": "H:\\learn\\egg-web\\node_modules\\egg\\config\\plugin.js",
+      "path": "H:\\learn\\egg-web\\node_modules\\egg-view",
       "version": "1.2.0"
     }
   }

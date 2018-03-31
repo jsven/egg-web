@@ -9,7 +9,7 @@
     "path": "/",
     "regexp": "/^(?:\\/(?=$))?$/",
     "stack": [
-      "H:\\learn\\examples\\static\\app\\controller\\home.js#Home.render()"
+      "H:\\learn\\egg-web\\app\\controller\\home.js#Home.render()"
     ]
   }
 ]
